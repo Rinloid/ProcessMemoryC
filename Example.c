@@ -17,7 +17,7 @@ int main() {
     ProcessMemory_WriteInt32(&pm, address, 1234);
 
     /* Pointer Chain Traversal */
-    ProcessMemory_TraverseInt32(&pm, address, offsets, ARRAYSIZE(offsets), &value);
+    ProcessMemory_TraverseInt32(&pm, ProcessMemory_GetBaseAddress(&pm) + address, offsets, ARRAYSIZE(offsets), &value);
     printf("%d", value);
 
     return 0;
