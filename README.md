@@ -1,4 +1,4 @@
 # ProcessMemoryC
-A C-ported version of [mat1jaczyyy’s ProcessMemory](https://github.com/mat1jaczyyy/ProcessMemory/blob/master/ProcessMemory/Main.cs).
+A C-ported version of [mat1jaczyyy’s ProcessMemory Library](https://github.com/mat1jaczyyy/ProcessMemory/ProcessMemory).
 # Usage
 See 'Example.c'.
